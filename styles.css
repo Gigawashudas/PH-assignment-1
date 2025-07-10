@@ -213,3 +213,132 @@ main{
     font-size: 16px;
     color: #252432;
 }
+
+.get-started{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 116px;
+    margin-bottom: 116px;
+    background-color: #f9f5f5;
+    width: 1140px;
+    border-radius: 20px;
+}
+
+.get-started-title{
+    font-weight: bold;
+    font-size: 50px;
+    color: #252432;
+    margin-top: 71px;
+    margin-bottom: 20px;
+}
+
+.get-started-para{
+    margin-bottom: 20px;
+}
+
+.get-started button{
+    margin-bottom: 20px;
+}
+
+.get-started-image{
+    border-radius: 50px;
+    margin-bottom: 71px;
+}
+
+.get-in-touch{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    width: 1140px;
+    margin-bottom: 71px;
+}
+
+form{
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.get-in-touch h2{
+    font-weight: bold;
+    font-size: 97px;
+    color: #252432;
+    margin-bottom: 20px;
+    width: 900px;
+}
+
+.get-in-touch-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.get-in-touch-form input, .get-in-touch-form button, .get-in-touch-form textarea{
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#message{
+    height: 100px;
+}
+
+label{
+    font-weight: bold;
+    font-size: 20px;
+    color: #252432;
+    margin-bottom: 10px;
+}
+
+::placeholder{
+    font-size: 20px;
+    text-align: left;
+}
+
+.footer-logo{
+    font-size: 100px;
+    font-weight: bold;
+    color: #4e47ff;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 150px;
+    width: 800px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 118px;
+    padding-bottom: 103px;
+    background-color: #f9f5f5;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+.links a{
+    text-decoration: none;
+    color: #252432;
+    font-size: 18px;
+}
