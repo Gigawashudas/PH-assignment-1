@@ -14,7 +14,7 @@
 .inter-normal{
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 300;
+    font-weight: 100;
     font-style: normal;
 }
 
@@ -104,6 +104,7 @@ main{
     font-size: 24px;
     max-width: 517px;
     margin: 23px 0;
+    font-weight: 200;
 }
 
 .productive-user{
@@ -139,6 +140,7 @@ main{
 .info p{
     margin: 0;
     font-size: 20px;
+    font-weight: 300;
 }
 
 .productive-user-title{
@@ -181,6 +183,7 @@ main{
 
 .review{
     text-align: left;
+    font-weight: 200;
 }
 
 .user{
@@ -197,6 +200,10 @@ main{
 
 .user-info p{
     text-align: left;
+}
+
+.date{
+    font-weight: 200;
 }
 
 .fa-star{
@@ -239,6 +246,7 @@ main{
 
 .get-started-para{
     margin-bottom: 20px;
+    font-weight: 300;
 }
 
 .get-started button{
@@ -341,7 +349,14 @@ footer{
 }
 
 .links a{
+    font-family: "Inter", sans-serif;
     text-decoration: none;
-    color: #252432;
+    color: #4b0000;
     font-size: 18px;
+    font-weight: 200;
+    font-family: inter;
+}
+
+.footer p{
+    font-weight: 200;
 }
