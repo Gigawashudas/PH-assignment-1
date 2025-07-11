@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .raleway-normal {
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
@@ -17,9 +18,16 @@
     font-style: normal;
 }
 
+.blue-text {
+    color: #4e47ff;
+}
+
+.black-text {
+    color: #252432;
+}
+
 .company-title {
     font-weight: 800;
-    color: #4e47ff;
     font-size: 34px;
 }
 
@@ -58,7 +66,6 @@ header{
 .hero-title{
     font-size: 65px;
     font-weight: bold;
-    color: #252432;
     margin-bottom: 20px;
     max-width: 905px;
     padding-bottom: 37px;
@@ -85,14 +92,11 @@ main{
 .action-title{
     font-weight: bold;
     font-size: 42px;
-    color: #252432;
 }
 
 .action-description{
     font-size: 24px;
-    color: #252432;
     max-width: 517px;
-    color: #252432;
     margin: 23px 0;
 }
 
@@ -124,26 +128,22 @@ main{
     margin: 0;
     font-weight: bold;
     font-size: 80px;
-    color: #4e47ff;
 }
 
 .info p{
     margin: 0;
     font-size: 20px;
-    color: #252432;
 }
 
 .productive-user-title{
     font-weight: bold;
     font-size: 38px;
-    color: #252432;
     margin-bottom: 20px;
 }
 
 .user-reviews-title{
     font-weight: bold;
     font-size: 42px;
-    color: #252432;
 }
 
 .user-reviews{
@@ -204,14 +204,12 @@ main{
 .card h4{
     font-weight: bold;
     font-size: 24px;
-    color: #252432;
     margin-bottom: 8px;
 }
 
 .user-name{
     font-weight: bold;
     font-size: 16px;
-    color: #252432;
 }
 
 .get-started{
@@ -229,7 +227,6 @@ main{
 .get-started-title{
     font-weight: bold;
     font-size: 50px;
-    color: #252432;
     margin-top: 71px;
     margin-bottom: 20px;
 }
@@ -266,7 +263,6 @@ form{
 .get-in-touch h2{
     font-weight: bold;
     font-size: 97px;
-    color: #252432;
     margin-bottom: 20px;
     width: 900px;
 }
@@ -291,6 +287,7 @@ form{
 }
 
 label{
+    font-family: "Inter", sans-serif;
     font-weight: bold;
     font-size: 20px;
     color: #252432;
@@ -298,6 +295,7 @@ label{
 }
 
 ::placeholder{
+    font-family: "Inter", sans-serif;
     font-size: 20px;
     text-align: left;
 }
@@ -305,7 +303,6 @@ label{
 .footer-logo{
     font-size: 100px;
     font-weight: bold;
-    color: #4e47ff;
 }
 
 .footer{
